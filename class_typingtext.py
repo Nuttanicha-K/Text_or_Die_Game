@@ -21,7 +21,7 @@ class typingText:
                 if char.isprintable():
                     self.user_input += char
 
-    def check_answer(self): #Vocal checker
+    def check_answer(self): #Vocab checker
         return self.user_input.lower() in self.valid_answers
 
     def get_answer_length(self): #Count letter
