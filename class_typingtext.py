@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+#60% on develop
 import pygame
 
 class typingText:
