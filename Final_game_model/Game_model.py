@@ -41,6 +41,9 @@ questions = {
     "Name an animal": load_word_list("animals.txt")
 }
 
+pygame.mixer.init()
+pygame.mixer.music.load("music.mp3") 
+pygame.mixer.music.play(-1,0.0)
 
 # ขนาดบล็อกกกกกกก
 block_width = 50
